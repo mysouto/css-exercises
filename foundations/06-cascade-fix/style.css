@@ -3,19 +3,13 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
-  font-size: 14px;
-}
-
 .para {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
+p.small-para {
+  font-size: 14px;
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -23,7 +17,15 @@
   font-size: 20px;
 }
 
-.child {
+/* another solution: use ID selector */
+/* #confirm-button */
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.text .child {
   color: red;
   font-size: 14px;
 }
